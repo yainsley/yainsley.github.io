@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ainsley Yates</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Ainsley Yates | Engineering Portfolio</title>
+    <style>
+        /* This section makes it look clean and modern */
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            line-height: 1.6; 
+            max-width: 850px; 
+            margin: 40px auto; 
+            padding: 20px; 
+            background-color: #f0f2f5; 
+            color: #333;
+        }
+        .header { 
+            text-align: center; 
+            margin-bottom: 40px; 
+        }
+        .card { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+            margin-bottom: 20px;
+        }
+        h1 { color: #003366; margin-bottom: 5px; } /* Purdue Blue */
+        h2 { color: #003366; border-bottom: 2px solid #ceb888; padding-bottom: 5px; display: inline-block; } /* Purdue Gold underline */
+        .btn {
+            display: inline-block;
+            background: #003366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .btn:hover { background: #004a99; }
+        .skills { font-weight: bold; color: #555; }
+    </style>
 </head>
 <body>
-    <h1>Hi, I'm Ainsley</h1>
-    <p>Welcome to my portfolio website.</p>
-    <p>Check out my <a href="https://github.com/yainsley/outing-club-analysis">Trip Analysis Project on GitHub</a>!</p>
+
+    <div class="header">
+        <h1>Ainsley Yates</h1>
+        <p>First-Year Engineering Student | Purdue University</p>
+        <p class="skills">Python • MATLAB • Data Analysis • Technical Communication</p>
+    </div>
+
+    <div class="card">
+        <h2>Featured Project: Trip Analysis Tool</h2>
+        <p>Developed a Python-based data pipeline for the Purdue Outing Club to transform raw organizational records into actionable insights. This tool automates the analysis of participation trends, member retention, and demographic data to optimize future trip scheduling.</p>
+        
+        <a href="https://github.com/YOUR_USERNAME/outing-club-analysis" class="btn">View Code on GitHub</a>
+    </div>
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>I am a student at Purdue University focused on utilizing data-driven solutions to solve organizational challenges. I enjoy bridging the gap between technical analysis and real-world application.</p>
+    </div>
+
 </body>
 </html>
